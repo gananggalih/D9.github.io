@@ -1,0 +1,142 @@
+/* Responsive Tablet*/
+@media all and (max-width: 1000px) {
+  .reason {
+      width: 50%;
+      margin-bottom: 50px;
+   }
+
+   .info-wrapper h1 {
+      font-size: 32px;
+   }
+
+   .heading h2 {
+     font-size: 20px;
+   }
+
+   .english, .japanese, .chinese, .spanish {
+     border-bottom: 1px solid black;
+   }
+
+   .languages {
+     background-color: rgba(34, 166, 179,0.1);
+   }
+
+   .languages {
+     margin: 0 auto;
+     width: 100%;
+     padding: 0 10%;
+   }
+
+   .language h2 {
+     padding: 1% 0;
+     text-align: center;
+     background-color: rgba(34, 166, 179,1);
+     color: #dff9fb;
+   }
+
+   .footer-list {
+     font-size: 80%;
+     padding: 1% 30px;
+    }
+
+    .footer-socmed {
+      padding: 1% 35px;
+      font-size: 80%;
+      margin-top: -60px;
+    }
+
+    .footer-socmed span {
+      letter-spacing: 3px;
+    }
+}
+
+
+
+
+/* Responsive Smartphone */
+@media all and (max-width: 670px) {
+   .reason {
+      width: 100%;
+   }
+
+   .info-wrapper {
+      height: 100%;
+   }
+
+   .english, .japanese, .chinese, .spanish {
+     border-bottom: 1px solid black;
+   }
+
+   .languages {
+     background-color: rgba(34, 166, 179,0.1);
+   }
+
+   .languages {
+     margin: 0 auto;
+     width: 100%;
+     padding: 0 10%;
+   }
+
+   .language h2 {
+     padding: 12px 0;
+     margin-bottom: 30px;
+     text-align: center;
+     font-size: 20px;
+     background-color: rgba(34, 166, 179,1);
+   }
+
+   .header-right {
+     display: none;
+   }
+
+   /* Tambahkan CSS untuk menu-icon */
+   .menu-icon {
+     display: block;
+     cursor: pointer;
+   }
+   .menu-icon i:hover {
+     color: rgb(255, 255, 255);
+   }
+
+   /* Sign up wrapper */
+   .signup-wrapper h1 {
+     font-size: 28px;
+     margin-bottom: 25px;
+   }
+
+   .message-wrapper {
+     font-size: 85%;
+   }
+   
+   .footer-list {
+     padding: 0 2px;
+     font-size: 80%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+   .footer-list div {
+     text-align: center;
+     width: 40%;
+     padding: 0 30px 10px 30px;
+   }
+
+   .footer-socmed {
+    text-align: center;
+    margin-left: 40px;
+    font-size: 80%;
+    margin-top: -1px;
+    color: black;
+  }
+
+  .footer-socmed p {
+    float: none;
+  }
+
+  .footer-socmed span {
+    padding-top: 0;
+    color: black;
+    transform: scale(1.7);
+    letter-spacing: 10px;
+  }
+}
