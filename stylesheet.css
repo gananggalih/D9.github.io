@@ -67,6 +67,7 @@ header {
 
 /* Hero */
 .top-wrapper {
+  height:580px;
   padding-top:200px;
   text-align:center;
   padding-bottom:220px;
